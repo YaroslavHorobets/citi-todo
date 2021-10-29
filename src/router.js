@@ -4,12 +4,12 @@ import TodosPage from "./components/TodosPage";
 
 const routes = [
   {
-    path: "/",
+    path: "/citi-todo/",
     name: "Login",
     component: LoginPage,
   },
   {
-    path: "/todo",
+    path: "/citi-todo/todo",
     name: "Todo",
     component: TodosPage,
   },
