@@ -16,7 +16,7 @@
       </div>
     </div>
   </div>
-  <a class="notAuthWarn" href="/" v-else
+  <a class="notAuthWarn" href="/citi-todo/" v-else
     >You must LOGIN first! <br />CLICK ME TO LOGIN</a
   >
 </template>
