@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import TodoItem from "./TodoItem.vue";
-import AddTodoForm from "./AddTodoForm.vue";
+import TodoItem from "../components/TodoItem.vue";
+import AddTodoForm from "../components/AddTodoForm.vue";
 import LogotypeBig from "../assets/Logotype-big.vue";
 export default {
   components: {

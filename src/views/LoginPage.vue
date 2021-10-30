@@ -48,9 +48,9 @@
 </template>
 
 <script>
-import LoginForm from "./LoginForm.vue";
-import Header from "./Header";
-import Footer from "./Footer";
+import LoginForm from "../components/LoginForm.vue";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default {
   components: {
     LoginForm,
@@ -79,7 +79,6 @@ export default {
   left: 371px;
   bottom: 70px;
   margin: 0;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -106,5 +105,26 @@ export default {
 }
 .checkVector {
   margin-right: 10px;
+}
+@media (max-width: 1919px) {
+  .background p {
+    font-size: 45px;
+    left: 280px;
+    bottom: 155px;
+  }
+  .businessInfo {
+    width: 564px;
+    margin-bottom: 40px;
+    margin-top: -80px;
+    margin-left: 287px;
+  }
+  .businessInfo span {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .checkText {
+    padding-left: 35px;
+    font-size: 14px;
+  }
 }
 </style>

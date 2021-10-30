@@ -35,4 +35,12 @@ export default {
   bottom: calc((96px - 66px) / 2);
   left: 377px;
 }
+@media (max-width: 1919px) {
+  .header {
+    height: 43px;
+  }
+  .nav {
+    height: 86px;
+  }
+}
 </style>

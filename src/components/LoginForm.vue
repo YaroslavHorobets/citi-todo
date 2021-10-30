@@ -108,4 +108,36 @@ export default {
   line-height: 29px;
   background: #f6f6f6;
 }
+@media (max-width: 1919px) {
+  .loginForm {
+    padding: 0 30px;
+    width: 321px;
+    height: 400px;
+    left: 900px;
+    top: 160px;
+  }
+  .loginForm label {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .loginForm input {
+    height: 43px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  .loginForm button {
+    margin-top: 30px;
+    height: 43px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .forgotLink {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .regLink {
+    height: 53px;
+    font-size: 20px;
+  }
+}
 </style>

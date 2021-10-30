@@ -80,4 +80,9 @@ export default {
   border: none;
   box-shadow: inset 2px 3px 3px 1px rgba(34, 60, 80, 0.4);
 }
+@media (max-width: 1919px) {
+  .editInput {
+    width: 370px;
+  }
+}
 </style>
