@@ -1,5 +1,8 @@
 # citi-todo
 
+## Deployed on GitHub Pages 
+https://yaroslavhorobets.github.io/citi-todo/
+
 ## Project setup
 ```
 npm install
