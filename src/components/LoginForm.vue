@@ -84,6 +84,11 @@ export default {
   color: #ffffff;
   cursor: pointer;
 }
+.loginForm button:hover {
+  background: white;
+  border: 2px solid #0076c0;
+  color: #0076c0;
+}
 .forgotLink {
   margin-top: 20px;
   margin-bottom: 20px;
